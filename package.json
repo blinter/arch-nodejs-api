@@ -1,0 +1,36 @@
+{
+  "name": "arch-nodejs-api",
+  "version": "0.0.1",
+  "description": "Esqueleto base para construção de API com Nodejs, expressjs e Knex",
+  "main": "src/server.ts",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blinter/arch-nodejs-api.git"
+  },
+  "keywords": [
+    "nodejs",
+    "knex",
+    "symon"
+  ],
+  "author": "Symon Lopes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/blinter/arch-nodejs-api/issues"
+  },
+  "homepage": "https://github.com/blinter/arch-nodejs-api#readme",
+  "dependencies": {
+    "@types/express": "^4.17.8",
+    "@types/node": "^14.6.2",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.4",
+    "ts-node": "^9.0.0",
+    "ts-node-dev": "^1.0.0-pre.61",
+    "typescript": "^4.0.2"
+  },
+  "devDependencies": {
+    "tsc-watch": "^4.2.9"
+  }
+}
