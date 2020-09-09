@@ -1,11 +1,7 @@
-class ClienteErro {
+class ClienteErro extends Error {
 
-    private descricao: string;
-    private codigo: number;
-
-    constructor(descricao: string, codigo: number = 0) {
-        this.descricao = descricao;
-        this.codigo = codigo;
+    constructor(public descricao: string, public codigo: number = 0) {
+        super()
     }
 }
 
